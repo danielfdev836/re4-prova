@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resident Evil 4 Remake - Formulário</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Formulário - Resident Evil 4 Remake</h1>
+
+        <nav>
+            <a href="index.html">Início</a> |
+            <a href="historia.html">História</a> |
+            <a href="personagens.html">Personagens</a> |
+            <a href="armas-inimigos.html">Armas e Inimigos</a> |
+            <a href="formulario.html">Formulário</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Pesquisa sobre o jogo</h2>
+
+            <article>
+
+                <form>
+
+                    <fieldset>
+                        <legend>Dados do visitante</legend>
+
+                        <p>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                        </p>
+
+                        <p>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                        </p>
+
+                        <p>
+                            <label for="senha">Senha:</label>
+                            <input type="password" id="senha" name="senha" placeholder="Digite uma senha" required>
+                        </p>
+
+                        <p>
+                            <label for="nascimento">Data de nascimento:</label>
+                            <input type="date" id="nascimento" name="nascimento" required>
+                        </p>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Preferências</legend>
+
+                        <p>
+                            <label for="personagem">Personagem favorito:</label>
+
+                            <input list="personagens" id="personagem" name="personagem" placeholder="Escolha ou digite"
+                                required>
+
+                            <datalist id="personagens">
+                                <option value="Leon S. Kennedy">
+                                <option value="Ashley Graham">
+                                <option value="Ada Wong">
+                                <option value="Luis Serra">
+                                <option value="O Mercador">
+                            </datalist>
+                        </p>
+
+                        <p>
+                            <label for="nota">Nota para o jogo:</label>
+
+                            <input type="range" id="nota" name="nota" min="0" max="10" value="5">
+                        </p>
+
+                        <p>
+                            <label for="plataforma">Plataforma:</label>
+
+                            <select id="plataforma" name="plataforma" required>
+                                <option value="">Selecione</option>
+                                <option value="pc">PC</option>
+                                <option value="ps4">PlayStation 4</option>
+                                <option value="ps5">PlayStation 5</option>
+                                <option value="xbox">Xbox</option>
+                                <option value="vr">PlayStation VR2</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="arquivo">Envie uma imagem relacionada ao jogo:</label>
+                            <input type="file" id="arquivo" name="arquivo" accept="image/*">
+                        </p>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Experiência</legend>
+
+                        <p>
+                            <label for="experiencia">
+                                Conte sua experiência com Resident Evil 4:
+                            </label>
+                        </p>
+
+                        <p>
+                            <textarea id="experiencia" name="experiencia" rows="8" cols="50"
+                                placeholder="Escreva aqui sua experiência..." required></textarea>
+                        </p>
+
+                        <p>
+                            <input type="checkbox" id="jogou" name="jogou" required>
+
+                            <label for="jogou">
+                                Confirmo que as informações preenchidas são minhas.
+                            </label>
+                        </p>
+
+                    </fieldset>
+
+                    <p>
+                        <button type="submit">Enviar formulário</button>
+                        <button type="reset">Limpar</button>
+                    </p>
+
+                </form>
+
+            </article>
+        </section>
+
+        <section>
+            <h2>Data da prova</h2>
+
+            <p>
+                Esta atividade está relacionada à prova realizada em
+                <time datetime="2026-09-29">29 de setembro de 2026</time>.
+            </p>
+
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>Resident Evil 4 Remake - Formulário acadêmico</p>
+    </footer>
+
+
+    <nav>
+            <a href="index.html">Início</a> |
+            <a href="historia.html">História</a> |
+            <a href="personagens.html">Personagens</a> |
+            <a href="armas-inimigos.html">Armas e Inimigos</a> |
+            <a href="formulario.html">Formulário</a>
+        </nav>
+</body>
+
+</html>
