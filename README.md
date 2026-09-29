@@ -2,7 +2,7 @@
 
 Projeto desenvolvido utilizando **HTML puro**, com o objetivo de criar um site informativo sobre o jogo **Resident Evil 4 Remake**.
 
-## 📖 Sobre o projeto
+##  Sobre o projeto
 
 O projeto apresenta informações sobre o universo de **Resident Evil 4 Remake**, organizado em diferentes páginas para facilitar a navegação.
 
@@ -18,7 +18,7 @@ O projeto possui as seguintes páginas:
 -  **Armas e Inimigos** — informações sobre armas e inimigos presentes no jogo.
 -  **Formulário** — formulário para interação com o visitante.
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 O projeto foi desenvolvido utilizando somente:
 
